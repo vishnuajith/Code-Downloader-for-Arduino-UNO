@@ -1,2 +1,13 @@
 # Code-Downloader-for-Arduino-UNO
-This is a code downloader made for Arduino uno ,it can be used to extract hex files from flashed Arduino uno boards 
+This is a simple code downloader made for Arduino uno ,it can be used to extract hex files from flashed Arduino uno boards 
+In Arduino IDE there is no way to save a program which is already flashed into an arduino board while reflashing it.
+The downloader_final.exe is used to download the hex files from arduino in case we need to flash the same code to other arduino or if we lost the .ino file and need to copy the flash file for future use.
+
+It is essential if we need to reuse an arduino board without deleting the code already flased in it.
+
+Usage: 
+Connect only the arduino Uno, you need to download the code from.
+Run downloader_final.exe 
+It asks for the file name for the downloaded hex file.
+After entering code click OK.
+The program downloads the code into its directory .
