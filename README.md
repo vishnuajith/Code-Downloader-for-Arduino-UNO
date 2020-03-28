@@ -6,6 +6,7 @@ The downloader_final.exe is used to download the hex files from arduino in case 
 It is essential if we need to reuse an arduino board without deleting the code already flased in it.
 
 Usage: 
+Download the Zip and extract the files to a folder,Then follow the given steps:
 
 1.Connect only the arduino Uno, you need to download the code from.
 
